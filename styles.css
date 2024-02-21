@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+*{
+	box-sizing:border-box;
+}
+.hero{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	text-align:center;
+}
+.hero>img{
+	width:60%;
+	object-fit:cover;
+}
+.pinterest{
+	padding:20px;
+}
+.explore-now{
+	background-color:red;
+	color:white;
+	border-style:none;
+	padding:10px;
+}
